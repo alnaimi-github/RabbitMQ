@@ -6,6 +6,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectExchange.Producer", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectExchange.Consumer", "DirectExchange.Consumer\DirectExchange.Consumer.csproj", "{68C20FAB-6EEC-4A11-B2E0-8EEB1948A78C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FanOutExchange.Producer", "FanOutExchange.Producer\FanOutExchange.Producer.csproj", "{46F6E6B4-D46E-4A45-BC14-3CD31D1230ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FanOutExchange.Consumer", "FanOutExchange.Consumer\FanOutExchange.Consumer.csproj", "{46C5F2AA-CB3A-4EF6-878A-8FABC874395E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +24,14 @@ Global
 		{68C20FAB-6EEC-4A11-B2E0-8EEB1948A78C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68C20FAB-6EEC-4A11-B2E0-8EEB1948A78C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{68C20FAB-6EEC-4A11-B2E0-8EEB1948A78C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46F6E6B4-D46E-4A45-BC14-3CD31D1230ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46F6E6B4-D46E-4A45-BC14-3CD31D1230ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46F6E6B4-D46E-4A45-BC14-3CD31D1230ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46F6E6B4-D46E-4A45-BC14-3CD31D1230ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46C5F2AA-CB3A-4EF6-878A-8FABC874395E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46C5F2AA-CB3A-4EF6-878A-8FABC874395E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46C5F2AA-CB3A-4EF6-878A-8FABC874395E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46C5F2AA-CB3A-4EF6-878A-8FABC874395E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
